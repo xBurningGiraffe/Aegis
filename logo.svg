@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+
+    <!-- Blue gradient — Aegis deep blue -->
+    <linearGradient id="shieldGrad" x1="256" y1="50" x2="256" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#3769E6"/>
+      <stop offset="100%" stop-color="#0A1964"/>
+    </linearGradient>
+
+    <!-- Gold gradient — Athena's shield rim -->
+    <linearGradient id="goldGrad" x1="256" y1="30" x2="256" y2="490" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#F5D060"/>
+      <stop offset="50%"  stop-color="#C8940C"/>
+      <stop offset="100%" stop-color="#7A5800"/>
+    </linearGradient>
+
+    <!-- Soft drop-shadow for the whole shield -->
+    <filter id="shadow" x="-12%" y="-8%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="rgba(0,0,0,0.55)"/>
+    </filter>
+
+    <!-- Subtle inner glow on the letter -->
+    <filter id="letterGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="rgba(255,255,255,0.25)" result="colour"/>
+      <feComposite in="colour" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- ── Gold outer border ──────────────────────────────────────────────── -->
+  <!--   Five-point shape mirroring the C# AddClosedCurve with tension 0.18 -->
+  <path filter="url(#shadow)"
+        fill="url(#goldGrad)"
+        d="M 66,30
+           C 66,30  156,30  256,30
+           C 356,30  446,30  446,30
+           C 453,30  452,120 450,210
+           C 446,330  370,430  256,490
+           C 142,430   66,330   62,210
+           C 60,120   59,30   66,30 Z"/>
+
+  <!-- ── Blue shield body ───────────────────────────────────────────────── -->
+  <path fill="url(#shieldGrad)"
+        d="M 84,50
+           C 84,50  170,50  256,50
+           C 342,50  428,50  428,50
+           C 435,50  434,134 432,202
+           C 428,314  358,414  256,468
+           C 154,414   84,314   80,202
+           C 78,134   77,50   84,50 Z"/>
+
+  <!-- Subtle inner rim highlight (thin white line) -->
+  <path fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="2.5"
+        d="M 100,68
+           C 100,68  178,68  256,68
+           C 334,68  412,68  412,68
+           C 418,68  417,148 415,210
+           C 411,314  346,405  256,453
+           C 166,405  101,314   97,210
+           C 95,148   94,68  100,68 Z"/>
+
+  <!-- ── Letter A ───────────────────────────────────────────────────────── -->
+  <text x="256" y="370"
+        font-family="Georgia, 'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+        font-size="300"
+        font-weight="bold"
+        fill="white"
+        fill-opacity="0.94"
+        text-anchor="middle"
+        filter="url(#letterGlow)">A</text>
+
+</svg>

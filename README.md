@@ -54,9 +54,10 @@ Everything runs silently on a schedule. No cloud. No subscription. Just your dri
 
 ## Installation
 
-1. Download `Aegis.exe` from [Releases](../../releases/latest)
-2. Right-click → **Run as administrator**
-3. Aegis appears in the system tray — double-click the icon to open Settings
+1. Run the Build.bat script as an administrator
+2. Move the compiled Aegis.exe from the dist/ directory to wherever you want it to run from
+3. Execute the Aegis.exe
+4. Check the system tray for the Aegis shield, right-click and choose "Open Settings" to configure
 
 > **Note:** For unattended overnight backups, configure a Task Scheduler entry or the Windows startup registry key to launch Aegis as administrator at log-on.
 
@@ -139,10 +140,10 @@ Extract the appropriate `diff_YYYY-MM-DD.zip` and copy files back to their origi
 
 ---
 
-## Building from Source
+## Manually Building from Source
 
 ```bash
-git clone https://github.com/yourname/Aegis
+git clone https://github.com/xBurningGiraffe/Aegis
 cd Aegis
 dotnet publish Aegis.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o dist
 ```
