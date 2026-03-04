@@ -1,5 +1,0 @@
-E:\Claude_Projects\PCBackup\dist\PCBackup.exe
-E:\Claude_Projects\PCBackup\dist\PCBackup.dll
-E:\Claude_Projects\PCBackup\dist\PCBackup.deps.json
-E:\Claude_Projects\PCBackup\dist\PCBackup.runtimeconfig.json
-E:\Claude_Projects\PCBackup\dist\PCBackup.pdb

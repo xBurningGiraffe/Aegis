@@ -1,5 +1,0 @@
-C:\Users\cfont\Nextcloud\Documents\GitHub\Aegis\dist\Aegis.exe
-C:\Users\cfont\Nextcloud\Documents\GitHub\Aegis\dist\Aegis.dll
-C:\Users\cfont\Nextcloud\Documents\GitHub\Aegis\dist\Aegis.deps.json
-C:\Users\cfont\Nextcloud\Documents\GitHub\Aegis\dist\Aegis.runtimeconfig.json
-C:\Users\cfont\Nextcloud\Documents\GitHub\Aegis\dist\Aegis.pdb
