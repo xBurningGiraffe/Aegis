@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zjF4SXPhJMg=",
+  "dgSpecHash": "ZSx7ZtEY2dE=",
   "success": true,
-  "projectFilePath": "E:\\Claude_Projects\\PCBackup\\Aegis.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\cfont\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.3\\microsoft.net.illink.tasks.10.0.3.nupkg.sha512",
-    "C:\\Users\\cfont\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.3\\microsoft.netcore.app.runtime.win-x64.10.0.3.nupkg.sha512",
-    "C:\\Users\\cfont\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.3.nupkg.sha512",
-    "C:\\Users\\cfont\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.3\\microsoft.aspnetcore.app.runtime.win-x64.10.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\Aegis.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Claude_Projects\\PCBackup\\Aegis.csproj": {}
+    "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\Aegis.csproj": {}
   },
   "projects": {
-    "E:\\Claude_Projects\\PCBackup\\Aegis.csproj": {
+    "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\Aegis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Claude_Projects\\PCBackup\\Aegis.csproj",
+        "projectUniqueName": "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\Aegis.csproj",
         "projectName": "Aegis",
-        "projectPath": "E:\\Claude_Projects\\PCBackup\\Aegis.csproj",
+        "projectPath": "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\Aegis.csproj",
         "packagesPath": "C:\\Users\\cfont\\.nuget\\packages\\",
-        "outputPath": "E:\\Claude_Projects\\PCBackup\\obj\\",
+        "outputPath": "C:\\Users\\cfont\\Nextcloud\\Documents\\GitHub\\Aegis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,14 +48,6 @@
       "frameworks": {
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
-          "dependencies": {
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.3, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -67,20 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[10.0.3, 10.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[10.0.3, 10.0.3]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[10.0.3, 10.0.3]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -380,11 +358,6 @@
             "System.Xml.XPath": "(,4.3.32767]",
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }
